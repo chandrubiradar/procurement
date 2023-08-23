@@ -1,0 +1,360 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "format:{vendor_name}-{##}",
+ "creation": "2023-08-22 13:34:00.782078",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company_details_section",
+  "vendor_name",
+  "vendor_code",
+  "office",
+  "telephone_no",
+  "mobile_no",
+  "email_address",
+  "city",
+  "country",
+  "zip_code",
+  "column_break_8",
+  "vendor_group",
+  "services_offered",
+  "p_o_box",
+  "contact_no",
+  "facsimile_no",
+  "website_address",
+  "24_hours_number",
+  "state",
+  "company_size_within_brunei_section",
+  "approximate_number_of_employees_corporate_based",
+  "column_break_15",
+  "approximate_number_of_employees_project_based",
+  "business_affiliations_section",
+  "date_of_organization",
+  "parent_company",
+  "column_break_20",
+  "name_and_address_of_general_partners",
+  "attach_22",
+  "ownership_and_management_section",
+  "type_of_ownership",
+  "owners",
+  "management_and_supervisory_staff",
+  "finance_section",
+  "bank_details",
+  "nature_of_business_section",
+  "html_30",
+  "attach_31",
+  "text_31",
+  "html_33",
+  "text_34",
+  "html_35",
+  "text_36",
+  "section_break_37",
+  "name_38",
+  "employee_name",
+  "title",
+  "telephone",
+  "column_break_41",
+  "address",
+  "date_completed",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_details_section",
+   "fieldtype": "Section Break",
+   "label": "Company Details"
+  },
+  {
+   "fieldname": "vendor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Vendor Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "office",
+   "fieldtype": "Small Text",
+   "label": "Office"
+  },
+  {
+   "fieldname": "telephone_no",
+   "fieldtype": "Data",
+   "label": "Telephone No."
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No."
+  },
+  {
+   "fieldname": "email_address",
+   "fieldtype": "Data",
+   "label": "Email Address"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "p_o_box",
+   "fieldtype": "Small Text",
+   "label": "P.O.Box"
+  },
+  {
+   "fieldname": "facsimile_no",
+   "fieldtype": "Data",
+   "label": "Facsimile No."
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Data",
+   "label": "Contact No."
+  },
+  {
+   "fieldname": "website_address",
+   "fieldtype": "Data",
+   "label": "Website Address"
+  },
+  {
+   "fieldname": "24_hours_number",
+   "fieldtype": "Data",
+   "label": "24-Hours Number(If any)"
+  },
+  {
+   "fieldname": "company_size_within_brunei_section",
+   "fieldtype": "Section Break",
+   "label": "Company Size Within Brunei"
+  },
+  {
+   "fieldname": "approximate_number_of_employees_corporate_based",
+   "fieldtype": "Data",
+   "label": "Approximate Number of Employees corporate based"
+  },
+  {
+   "fieldname": "approximate_number_of_employees_project_based",
+   "fieldtype": "Data",
+   "label": "Approximate Number of Employees project based"
+  },
+  {
+   "fieldname": "business_affiliations_section",
+   "fieldtype": "Section Break",
+   "label": "Business Affiliations"
+  },
+  {
+   "fieldname": "date_of_organization",
+   "fieldtype": "Date",
+   "label": "Date of Organization"
+  },
+  {
+   "fieldname": "parent_company",
+   "fieldtype": "Data",
+   "label": "Parent Company(Full legal name and address, if applicable)"
+  },
+  {
+   "fieldname": "column_break_15",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name_and_address_of_general_partners",
+   "fieldtype": "Data",
+   "label": "Name and address of general partners(Attach list if necessary)"
+  },
+  {
+   "fieldname": "ownership_and_management_section",
+   "fieldtype": "Section Break",
+   "label": "Ownership and Management"
+  },
+  {
+   "fieldname": "type_of_ownership",
+   "fieldtype": "Select",
+   "label": "Type Of Ownership",
+   "options": "\nPrivate Limited\nPartner\nSole Proprietor\nOthers"
+  },
+  {
+   "fieldname": "owners",
+   "fieldtype": "Table",
+   "label": "Owners",
+   "options": "Vendor Registration Owners Table"
+  },
+  {
+   "fieldname": "management_and_supervisory_staff",
+   "fieldtype": "Table",
+   "label": "Management And Supervisory Staff",
+   "options": "Vendor Registration Staff Table"
+  },
+  {
+   "fieldname": "finance_section",
+   "fieldtype": "Section Break",
+   "label": "Finance"
+  },
+  {
+   "fieldname": "bank_details",
+   "fieldtype": "Table",
+   "label": "Bank Details",
+   "options": "Vendor Registration Finance Table"
+  },
+  {
+   "fieldname": "column_break_20",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "attach_22",
+   "fieldtype": "Attach"
+  },
+  {
+   "fieldname": "nature_of_business_section",
+   "fieldtype": "Section Break",
+   "label": "Nature Of Business"
+  },
+  {
+   "fieldname": "html_30",
+   "fieldtype": "HTML",
+   "options": "<p>Materials / Goods / Services provided by your company or type or work your company is providing. \nPlease list the materials or goods or services of your company can provide to MGCSB within Brunei (or \noutside Brunei; if any). Attach list if necessary.</p>"
+  },
+  {
+   "fieldname": "text_31",
+   "fieldtype": "Text Editor"
+  },
+  {
+   "fieldname": "attach_31",
+   "fieldtype": "Attach"
+  },
+  {
+   "fieldname": "html_33",
+   "fieldtype": "HTML",
+   "options": "The companies to whom your organization is presently supplying services or products,"
+  },
+  {
+   "fieldname": "text_34",
+   "fieldtype": "Text"
+  },
+  {
+   "fieldname": "html_35",
+   "fieldtype": "HTML",
+   "options": "List of products name in which your company is the dealer/distributor."
+  },
+  {
+   "fieldname": "text_36",
+   "fieldtype": "Text"
+  },
+  {
+   "fieldname": "section_break_37",
+   "fieldtype": "Section Break",
+   "label": "Please provide the name and contact information on the person completing this form. "
+  },
+  {
+   "fieldname": "name_38",
+   "fieldtype": "Link",
+   "label": "ID",
+   "options": "Employee"
+  },
+  {
+   "fetch_from": "name_38.designation",
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "telephone",
+   "fieldtype": "Data",
+   "label": "Telephone"
+  },
+  {
+   "fieldname": "date_completed",
+   "fieldtype": "Date",
+   "label": "Date Completed"
+  },
+  {
+   "fieldname": "column_break_41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Vendor Registration Form",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "vendor_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Vendor Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "vendor_group",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Vendor Group",
+   "options": "Supplier Group",
+   "reqd": 1
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Data",
+   "label": "State"
+  },
+  {
+   "fieldname": "zip_code",
+   "fieldtype": "Data",
+   "label": "Zip Code"
+  },
+  {
+   "fieldname": "services_offered",
+   "fieldtype": "Data",
+   "label": "Services Offered"
+  },
+  {
+   "fetch_from": "name_38.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-08-23 14:12:54.134115",
+ "modified_by": "Administrator",
+ "module": "Procurement",
+ "name": "Vendor Registration Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

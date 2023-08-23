@@ -179,3 +179,40 @@ user_data_fields = [
 #	"procurement.auth.validate"
 # ]
 
+fixtures = [
+        {
+            "doctype":'Material Request',
+            "filters":[
+                [
+                    "name",
+                    "in",
+                    [
+                        "pr_no",
+                        "delivery_to",
+                        "div_dept",
+                        "contract_ref",
+                        "job_eq_no",
+                        "standard_quality_requirements",
+                        "1",
+                        "c1",
+                        "2",
+                        "c2",
+                        "3",
+                        "c3",
+                        "4",
+                        "c4",
+                        "5",
+                        "c5",
+                        "for_psd_use_only",
+                        "po",
+                        "vendor",
+                        "for_mashhor_general_contractor_sdn_bhd",
+                        "initiator",
+                        "name_",
+                        "approved_by",
+                        "name1",
+                    ]
+                ]
+            ]
+          }
+        ]
